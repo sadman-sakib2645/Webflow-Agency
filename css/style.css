@@ -1,0 +1,1646 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+ol,ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1C2B;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    text-decoration: none;
+}
+
+h1{
+    font-weight:600 ;
+    font-size:54px ;
+    line-height: 74px;
+    color:#FFF ;
+}
+h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+h3{
+    font-weight: 600;
+    font-size:38px ;
+    line-height:48px ;
+    color: #282938;
+}
+h4{
+    font-weight: 500;
+    font-size: 32px;
+    line-height:48px ;
+    color: #282938;
+}
+h5{
+    font-weight: 500;
+    font-size:24px ;
+    line-height: 36px;
+    color:#282938 ;
+}
+p{
+    font-weight: 400;
+    font-size:16px ;
+    line-height: 28px;
+    color: #282938;
+    
+}
+
+
+/* =========================
+    Common Css End
+=========================== */
+nav{
+    background: #1C1E53;;
+    width: 100%;
+}
+nav .navbar{
+    display: flex;
+}
+
+nav .navbar .logo{
+    width: 30%;
+    line-height: 100px;
+}
+nav .navbar .menu{
+    width: 48%;
+    line-height: 100px;
+}
+nav .navbar .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav .navbar .menu ul li a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+nav .navbar .menu ul li:first-child a{
+    color: #FFF !important;
+}
+nav .navbar .menu ul li a:hover{
+    color: #FFF;
+}
+nav .navbar .nav-btn{
+    width: 22%;
+}
+nav .navbar .nav-btn a{
+    margin-left: 50px;
+    padding: 16px 48px;
+    color: #FFF;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-top: 21px ;
+}
+
+/* =======================================================
+    Nav Css End
+========================================================== */
+.banner{
+    background: #1C1E53;
+    padding: 130px 0;
+}
+.banner .banner-main{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner-main .banner-text{
+    width: 50%;
+}
+.banner .banner-main .banner-text p{
+    color:rgba(255, 255, 255, 0.329) ;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.banner .banner-main .banner-text .banner-work{
+    background: #FCD980;
+    padding: 16px 56px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.banner .banner-main .banner-text .banner-work a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1B1C2B;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.banner .banner-main .banner-text .banner-work a:hover{
+    color: #FFF;
+}
+
+.banner .banner-main .banner-text .banner-price{
+    margin-left: 40px;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.banner .banner-main .banner-text .banner-price a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.banner .banner-main .banner-text .banner-price a:hover{
+    color: #fff;
+    padding: 16px 56px;
+}
+
+.banner .banner-main .banner-img{
+    width: 50%;
+}
+.banner .banner-main .banner-img img{
+    width: 100%;
+}
+
+/* =======================================================
+    banner Css End
+========================================================== */
+
+.main-work{
+    background: #F4F6FC; 
+}
+.work{
+    display: flex;
+    padding: 128px 0;
+}
+.work .work-text{
+    width: 45%;
+}
+.work .work-text p{
+    padding-right: 170px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.work .work-text .work-btn{
+    background: none;
+    outline: none !;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2405F2;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    text-decoration: none;
+}
+.work .work-text .work-btn:hover{
+    color: #1B1C2B;
+}
+
+.work .work-img{
+    width: 65%;
+}
+.work .work-img .work-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .work-img .work-item{
+    width: 50%;
+}
+.work .work-img .work-item p{
+    margin-bottom: 40px;
+}
+/* =======================================================
+    work Css End
+========================================================== */
+.project{
+    padding: 128px 0;
+}
+.project .project-main .p-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.project .project-main .p-heading a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1C2B;
+    line-height: 80px;
+}
+.project .project-main .p-content{
+    display: flex;
+    justify-content: space-between;
+}
+.project .project-main .p-content .b-item{
+    width: 65%;
+    position: relative;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    overflow: hidden;
+}
+.project .project-main .p-content .b-item .overlay{
+    content: "";
+    width: 45%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.72);
+    position: absolute;
+    top: 0;
+    right: 0%;
+    z-index: 11;
+    visibility: none;
+    opacity: 0;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    overflow: hidden;
+}
+.project .project-main .p-content .b-item:hover .overlay{
+    opacity: 100%;
+    visibility: visible;
+    right: 55%;
+}
+.project .project-main .p-content .b-item .overlay h5 {
+    padding: 312px 20px 0 20px;
+    color: #FFF;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.project .project-main .p-content .b-item .overlay p{
+    padding: 12px 20px 20px 20px;
+    color: #FFF;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.project .project-main .p-content .b-item .overlay a{
+    padding: 12px 20px 0px 20px;
+    color: #FCD980;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.project .project-main .p-content .b-item img{
+    width: 100%;
+}
+.project .project-main .p-content .s-item{
+    width:32%;
+}
+.project .project-main .p-content .s-item .item1{
+    height: 286px;
+    position: relative;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    overflow: hidden;
+}
+.project .project-main .p-content .s-item .item1 img{
+    width: 100%;
+}
+
+.project .project-main .p-content .s-item .item1 .overlay{
+    content: "";
+    width: 100%;
+    height: 260px;
+    background: rgba(28, 30, 83, 0.72);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 11;
+    visibility: none;
+    opacity: 0;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}
+.project .project-main .p-content .s-item .item1:hover .overlay{
+    opacity: 100%;
+    visibility: visible;
+    left: 0;
+}
+
+.project .project-main .p-content .s-item .item1 .overlay h5 {
+    padding: 110px 40px 0 40px;
+    color: #FFF;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.project .project-main .p-content .s-item .item1 .overlay a {
+    padding: 20px 40px 0 40px;
+    color: #FCD980;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+.project .project-main .p-content .s-item .item2{
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.project .project-main .p-content .s-item .item2 img{
+    width: 100%;
+}
+.project .project-main .p-content .s-item .item2 .overlay{
+    content: "";
+    width: 100%;
+    height: 260px;
+    background: rgba(28, 30, 83, 0.72);
+    position: absolute;
+    top: -260px;
+    left: 0;
+    z-index: 11;
+    visibility: none;
+    opacity: 0;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}
+.project .project-main .p-content .s-item .item2:hover .overlay{
+    opacity: 100%;
+    visibility: visible;
+    top: 0;
+}
+
+.project .project-main .p-content .s-item .item2 .overlay h5 {
+    padding: 110px 40px 0 40px;
+    color: #FFF;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.project .project-main .p-content .s-item .item2 .overlay a {
+    padding: 20px 40px 0 40px;
+    color: #FCD980;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+/* =======================================================
+    Project Css End
+========================================================== */
+.features{
+    background: #F4F6FC;
+    padding: 130px 0;
+}
+
+.features .f-main .f-heading{
+    width: 620px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features .f-main .f-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.features .f-main .f-content .item1{
+    padding: 58px 30px 48px 30px;
+    background: #FFF;
+    width: 300px;
+    margin-bottom: 30px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.features .f-main .f-content .item1:hover{
+    box-shadow: 10px 10px 10px 1px rgba(0,0,0,0.31);
+-webkit-box-shadow: 10px 10px 10px 1px rgba(0,0,0,0.31);
+-moz-box-shadow: 10px 10px 10px 1px rgba(0,0,0,0.31);
+}
+
+.features .f-main .f-content .item1 h5{
+    padding: 10px 0 6px 0;
+}
+/* =======================================================
+    Features Css End
+========================================================== */
+.testimonial{
+    background: #ECECF1;
+    padding: 130px 0;
+}
+.testimonial .testi-main{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial .testi-main .testi-heading{
+    width: 25%;
+}
+
+.testimonial .testi-main .testi-heading h4{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.testimonial .testi-main .testi-slideing{
+    width: 68%;
+}
+.testimonial .testi-main .testi-slideing .s-head {
+    margin-bottom: 50px;
+}
+.testimonial .testi-main .testi-slideing .s-item{
+    width: 230px;
+    display: flex;
+    position: relative;
+    
+}
+.testimonial .testi-main .testi-slideing .s-item .s-text h6{
+    font-size:18px;
+    font-weight:500;
+    padding-left: 15px;
+}
+.testimonial .testi-main .testi-slideing .s-item .s-text span{
+    font-size:12px;
+    font-weight:500;
+    padding-left: 16px;
+}
+
+.testimonial .testi-main .testi-slideing .s-item .icon {
+    width: 120px;
+    position: absolute;
+    top: 15px;
+    right: -560px;
+}
+.testimonial .testi-main .testi-slideing .s-item .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .4s;
+    text-align: center;
+    line-height: 50px;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.testimonial .testi-main .testi-slideing .s-item .icon i:hover{
+    background: #5239FA;
+    color: white;
+}
+/* =======================================================
+    Testimonial Css End
+========================================================== */
+.faq{
+    padding: 130px 0;
+}
+.faq .faq-main{
+    display: flex;
+}
+.faq .faq-main .faq-heading{
+    width: 320px;
+    margin-right: 110px;
+}
+.faq .faq-main .faq-heading a{
+    color: #2405F2;
+    margin-top: 10px;
+}
+.faq .faq-main .faq-content{
+    width: 700px;
+}
+.faq .faq-main .faq-content .f-item{
+    border-bottom: 2px solid #ECECF1;
+    margin-bottom: 30px;
+    position: relative;
+}
+.faq .faq-main .faq-content h5{
+    padding-bottom: 30px;
+}
+.faq .faq-main .faq-content p{
+    padding-left: 115px;
+    padding-bottom: 45px;
+}
+.faq .faq-main .faq-content span{
+    padding-right: 55px;
+    padding-left: 30px;
+    color: #2405F2;
+}
+.faq .faq-main .faq-content i{
+    font-size: 14px;
+    color: #282938;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    
+}
+/* =======================================================
+    FAQ Css End
+========================================================== */
+.from .f-main{
+    height: 700px;
+    display: flex;
+    padding-bottom: 130px;
+}
+.from .f-main .f-img {
+    width: 55%;
+    position: relative;
+}
+.from .f-main .f-img .overlay{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.5);
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 11;
+}
+.from .f-main .f-img .overlay h1{
+    padding-left: 96px;
+    padding-top: 96px;
+    padding-bottom: 66px;
+
+}
+.from .f-main .f-img .overlay p{
+    color: white;
+    margin: 0 96px;
+}
+.from .f-main .f-img img{
+    height: 100%;
+    width: 100%;
+}
+.from .f-main .f-text {
+    width: 45%;
+    background: #1C1E53;
+    padding: 100px 50px 50px 50px;
+}
+.from .f-main .f-text h4{
+    color: white;
+}
+
+.from .f-main .f-text p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.from .f-main .f-text input{
+    background: #1C1E53;
+    outline: none;
+}
+.from .f-main .f-text input{
+    width: 432px;
+    background: #1C1E53;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    color: #F4F6FC;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 16px;
+}
+.from .f-main .f-text .f-button{
+    width: 468px;
+    background: #FCD980;
+    outline: none;
+    border: none;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.from .f-main .f-text .f-button a{
+    line-height: 60px;
+    font-size: 18px;
+}
+.from .f-main .f-text  .f-btn{
+    width: 468px;
+    background: none;
+    outline: none !;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ECECF1;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    text-decoration: none;
+    text-align: center;
+}
+.from .f-main .f-text  .f-btnn{
+    
+    color: #ECECF1;
+    
+}
+.from .f-main .f-text  .f-btn:hover{
+    color: #FCD980;
+}
+/* =======================================================
+    from Css End
+========================================================== */
+.blog{
+    padding-bottom: 130px;
+}
+.blog .blog-heading{
+    margin-bottom: 64px;
+}
+.blog .blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .blog-content .blog-item{
+    width: 365px;
+}
+.blog .blog-content .blog-item img{
+    margin-bottom: 40px;
+    width: 100%;
+}
+.blog .blog-content .blog-item h5{
+    margin: 16px 0;
+}
+.blog .blog-content .blog-item .blog-p{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.blog .blog-content .blog-item .b-btn{
+    width: 468px;
+    background: none;
+    outline: none ;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B1C2B;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    text-align: left;
+}
+.blog .blog-content .blog-item .b-btn:hover{
+    color: #FCD980;
+}
+/* =======================================================
+    Blog Css End
+========================================================== */
+footer {
+    background: #1C1E53;
+    padding-top: 100px;
+}
+footer .footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-main .footer-logo{
+    width: 45%;
+} 
+.footer-p{
+    color: #FFF ;
+    padding-right: 70px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+}
+footer .footer-main .footer-text{
+    width: 40%;
+} 
+footer .footer-main .footer-text p{
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+footer .footer-main .footer-text .icon{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-main .footer-text .icon i{
+    color: white;
+}
+/* =======================================================
+    footer Css End
+========================================================== */
+
+.copyright .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright .navbar .logo{
+    width: 30%;
+}
+.copyright .navbar .logo p{
+    text-align: center;
+    line-height: 100px;
+}
+.copyright .navbar .menu{
+    width: 40%;
+    line-height: 100px;
+}
+.copyright .navbar .menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.copyright .navbar .menu ul li a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1B1C2B;
+    padding-left: 23px;
+}
+
+/* =======================================================
+    copyright Css End
+========================================================== */
+
+
+
+/* =================================================================================================
+    Home Section End
+=================================================================================================== */
+.about-us{
+    padding: 130px 0;
+}
+
+.about-us .about-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .about-main .about-text{
+    width: 45%;
+}
+.about-us .about-main .about-text h1{
+    color: #282938;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.about-us .about-main .about-text h6{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-us .about-main .about-img{
+    width: 45%;
+}
+.about-us .about-main .about-img img{
+    width: 100%;
+}
+
+
+/* =======================================================
+    about us Css End
+========================================================== */
+.goal{
+    padding-bottom: 130px;
+}
+.goal .goal-main{
+    background: #F4F5F5;
+}
+.goal .goal-main .goal-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.goal .goal-main .goal-img img{
+    width: 100%;
+}
+.goal .goal-main .goal-head .goal-left{
+    width: 48%;
+}
+.goal .goal-main .goal-head .goal-left h6{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.goal .goal-main .goal-head .goal-right{
+    width: 48%;
+}
+.goal .goal-main .goal-head .goal-right h3{
+    padding-bottom: 10px;
+    padding-top: 36px;
+}
+/* =======================================================
+    Goal  Css End
+========================================================== */
+.process{
+    padding-bottom: 130px;
+}
+.process .process-main .process-head h2{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.process .process-main .process-content{
+    display: flex;
+    justify-content: space-between;
+}
+.process .process-main .process-content .process-item{
+    width: 240px;
+}
+.process .process-main .process-content .process-item img{
+    width: 100%;
+}
+.process .process-main .process-content .process-item h5{
+    padding-top: 28px;
+    padding-bottom: 15px;
+}
+/* =======================================================
+    Process Css End
+========================================================== */
+
+.mission .mission-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.mission .mission-content .text{
+    width: 50%;
+}
+.mission .mission-content .text h3{
+    padding: 20px 0;
+}
+.mission .mission-content .text h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mission .mission-content .img{
+    width: 40%;
+}
+.mission .mission-content .img img{
+    width: 100%;
+}
+/* =======================================================
+    mission Css End
+========================================================== */
+.benefit{
+    margin-bottom: 50px;
+}
+.benefit .benefit-main .benefit-head{
+    width: 675px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.benefit .benefit-main .benefit-content{
+    display: flex;
+    justify-content: space-between;
+}
+.benefit .benefit-main .benefit-content .item{
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 32px;
+    background: #F4F6FC;
+    text-align: center;
+}
+.benefit .benefit-main .benefit-content .item h5{
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+/* =======================================================
+    benefit Css End
+========================================================== */
+.about-slide{
+    margin-bottom: 130px;
+}
+.about-slide .about-slide-main{
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px
+}
+/* =======================================================
+about slide Css End
+========================================================== */
+.team{
+    background: #F4F6FC;
+    padding-bottom: 130px;
+    overflow: hidden;
+}
+.team .team-main .team-head h2{
+    padding-top: 128px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.team .team-main .team-content{
+    display: flex;
+    justify-content: space-between;
+}
+.team .team-main .team-content .item{
+    width: 24%;
+    /* padding: 48px 64px 32px 64px; */
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+}
+.team .team-main .team-content .item h5{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.team .team-main .team-content .item .img{
+    position: relative;
+    z-index: 11;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -ms-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    overflow: hidden;
+}
+.team .team-main .team-content .item .img .overlay{
+    content: "";
+    width: 168px;
+    height: 0;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.61) , rgba(83, 57, 250, 0.822));
+    position: absolute;
+    bottom: 0;
+    left:52px;
+    z-index:11;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s;
+    -moz-transition: all ease-in-out .5s;
+    -ms-transition: all ease-in-out .5s;
+    -o-transition: all ease-in-out .5s;
+    
+}
+.team .team-main .team-content .item .img:hover .overlay{
+    
+    height: 168px;
+}
+.team .team-main .team-content .item .icon i{
+    color: #FFF;
+    margin-top: 115px;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    cursor: pointer;
+}
+.team .team-main .team-content .item .icon i:hover{
+    color: #FCD980;
+}
+.team .team-main .team-content .item .icon i:nth-child(2){
+    padding: 0 10px;
+}
+/* =======================================================
+team Css End
+========================================================== */
+.pricing{
+    padding-top: 130px;
+}
+.pricing .p-m{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing .pricing-head{
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.pricing .pricing-content{
+    width: 350px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.pricing .pricing-content:hover{
+    background: #ddd;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+}
+.pricing .pricing-content .item{
+    width: 406px;
+    
+    padding-top: 60px;
+    
+}
+
+
+.pricing .pricing-content .item .it{
+    
+    padding-bottom: 40px;
+    border-bottom-left-radius:100px ;
+    border-bottom-right-radius:100px ;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.pricing .pricing-content .item .text{
+    background: #2405F2;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.pricing .pricing-content .item h3{
+    padding: 10px 0 5px 0;
+    padding-left: 45px;
+}
+.pricing .pricing-content .item h5{
+    padding-left: 45px;
+    padding-bottom: 5px;
+}
+.pricing .pricing-content .item p{
+    padding-right: 48px;
+    padding-left: 45px;
+}
+
+.pricing .pricing-content .item h3 span{
+    color: #2405F2;
+    font-size: 16px;
+    font-weight: 500;
+}
+.pricing .pricing-content .item ul{
+    padding-top: 78px;
+    padding-left: 45px;
+}
+
+.pricing .pricing-content .item ul li{
+    padding-bottom: 20px;
+}
+.pricing .pricing-content .item ul li i{
+    color: #97DAAD; 
+}
+.pricing .pricing-content .item ul li a{
+    margin-left: 14px;
+}
+.pricing .pricing-content .item ul li:last-child{
+    padding-bottom: 0;
+}
+.pricing .pricing-content .item .button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.pricing .pricing-content .item .button .price-button{
+    outline: none;
+    border: none;
+    background: #282938;
+    width: 254px;
+    height: 64px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.pricing .pricing-content:hover .item .button .price-button{
+    background: #FCD980;
+}
+.pricing .pricing-content .item .button .price-button a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.pricing .pricing-content:hover .item .button .price-button a{
+    color: black;
+}
+
+/* =======================================================
+team Css End
+========================================================== */
+
+.f-sl{
+    padding-top: 96px;
+}
+/* =======================================================
+                        features slide
+========================================================== */
+.client{
+    padding: 20px 0;
+}
+
+.client .c-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.client .c-main .c-text{
+    width: 45%;
+}
+.client .c-main .c-text h3{
+    padding: 20px 0;
+}
+.client .c-main .c-text h6{
+    padding-top: 50px;
+}
+.client .c-main .c-img{
+    width: 45%;
+}
+.client .c-main .c-img img{
+    width: 100%;
+}
+/* =======================================================
+                    client css ends
+========================================================== */
+.work-banner{
+    text-align: center;
+    padding: 96px 0;
+    background: #F4F6FC;
+}
+.work-banner h2{
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+.work-banner p{
+    padding: 0 210px;
+}
+
+.work-banner .icon{
+    padding-top: 30px;
+}
+.work-banner .icon i{
+    padding-right: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    font-size: 20px;
+}
+.work-banner .icon i:hover{
+        color: #5239FA;
+}
+/* =======================================================
+                    work banner css ends
+========================================================== */
+.templete{
+    padding: 96px 0;
+}
+.templete .t-head{
+    width: 465px;
+    margin: 0 auto;
+    padding-bottom: 46px;
+}
+.templete .t-head ul{
+    display: flex;
+    text-align: center;
+}
+.templete .t-head ul li{
+    padding-right: 32px;
+}
+.templete .t-head ul li a{
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.templete .t-head ul li a:hover {
+    color: #2405F2;
+}
+.templete .t-content .item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.templete .t-content .item .i-one{
+    width: 48%;
+}
+.templete .t-content .item .i-one h3{
+    padding-top: 25px;
+}
+.templete .t-content .item .i-one p{
+    padding: 12px 0 24px 0;
+}
+.templete .t-content .item .i-one h6 i{
+    padding-left: 10px;
+}
+.templete .t-content .item .i-one img{
+    width: 100%;
+}
+.templete .t-content .item .i-two{
+    width: 48%;
+}
+.templete .t-content .item .i-two img{
+    width: 100%;
+}
+.templete .t-content .item .i-two h3{
+    padding-top: 25px;
+}
+.templete .t-content .item .i-two p{
+    padding: 12px 0 24px 0;
+}
+.templete .t-content .item .i-two h6 i{
+    padding-left: 10px;
+}
+/* =======================================================
+                    templete css ends
+========================================================== */
+.work-f .pricing-head{
+    width: 661px;
+    text-align: center;
+    margin: 0 auto;
+}
+.work-f .pricing-head p{
+    padding: 10px 0 20px 0;
+}
+.work-f .pricing-head .button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.work-f .pricing-head .button .price-button{
+    outline: none;
+    border: none;
+    background: #282938;
+    width: 254px;
+    height: 64px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.work-f .pricing-head .button .price-button{
+    background: #FCD980;
+}
+.work-f .pricing-head .button .price-button a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.work-f .pricing-head .button .price-button a:hover{
+    color: white;
+}
+/* =======================================================
+                    work contact
+========================================================== */
+.studies{
+    padding-top: 96px;
+    
+}
+.studies .m-studies{
+    width: 900px;
+    margin: 0 auto;
+}
+.studies .m-studies h2{
+    padding-right: 300px;
+    padding-top: 14px;
+    padding-bottom: 18px;
+}
+.studies .m-studies p{
+    padding-right: 90px;
+    padding-bottom: 48px;
+}
+.studies .m-studies img{
+    width: 100%;
+}
+.studies .m-studies .service{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(40, 41, 56, 0.342);
+    padding-bottom: 32px;
+    padding-top: 50px;
+}
+/* =======================================================
+                    studies banner css ends
+========================================================== */
+.project .m-project{
+    width: 800px;
+    margin: 0 auto;
+}
+.project .m-project p{
+    padding: 14px 0 26px 0;
+}
+.project .m-project ul li{
+    padding-bottom: 20px;
+}
+.project .m-project ul li img{
+    margin-right: 20px;
+}
+.project .m-project .s-p{
+    width: 100%;
+    margin-top: 64px;
+    padding-bottom: 64px;
+}
+.project .m-project .slide{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    border-top: 1px solid rgba(40, 41, 56, 0.432);
+    border-bottom: 1px solid rgba(40, 41, 56, 0.432);
+}
+.project .m-project .slide .item h6{
+    font-size: 17px !important;
+}
+/* =======================================================
+                    project css ends
+========================================================== */
+.p-blog{
+    padding: 96px 0;
+}
+.p-blog .mp-blog{
+    text-align: center;
+}
+.p-blog .mp-blog p{
+    padding: 0 150px;
+}
+.p-blog .mp-blog h2{
+    padding: 0 140px;
+}
+.p-blog .mp-blog .blog-fi{
+    padding: 5px 0 32px 0;
+}
+.p-blog .mp-blog .blog-gi{
+    padding: 32px 150px 10px 150px;
+}
+.p-blog .mp-blog img{
+    width: 100%;
+}
+/* =======================================================
+                    blog banner css ends
+========================================================== */
+.our-blog{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.our-blog h2{
+    padding-bottom: 50px;
+}
+.our-blog .our-m{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our-blog .our-m .item{
+    width: 360px;
+    text-align: left;
+    padding-bottom: 70px;
+}
+.our-blog .our-m .item h6{
+    padding: 20px 0 15px 0;
+}
+.our-blog .our-m .item p{
+    padding: 16px 0 24px 0;
+}
+.our-blog .our-m .item img{
+    width: 100%;
+}
+.our-blog .our-m .item a{
+
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+.our-blog .our-m .item a:hover{
+    color: blue;
+}
+.our-blog .our-m .item a i{
+    padding-left: 10px;
+}
+/* =======================================================
+========================================================== */
+.read-blog{
+    width: 840px;
+    margin: 0 auto;
+}
+.read-blog ul li img{
+    margin-right: 10px;
+}
+.read-blog .re-i{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.read-blog p{
+    padding: 32px 0 40px 0;
+}
+/* =======================================================
+                        read blog css end
+========================================================== */
+.contact{
+    padding: 96px 0;
+}
+.contact .form{
+    width: 900px;
+    padding: 55px 60px 64px 60px;
+    background: #F4F6FC;
+    margin: 0 auto;
+}
+.contact .form .first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.contact .form textarea{
+    width: 866px;
+    height: 150px;
+    background: #F4F6FC;
+    padding: 18px 22px;
+    border: 1px solid #c7c3c3;
+    outline: none;
+    resize: none;
+}
+.contact .form .item h5{
+    font-weight: 600;
+}
+.contact .form .item input{
+    width: 350px;
+    background: #F4F6FC;
+    padding: 18px 22px;
+    border: 1px solid #c7c3c3;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 8px;
+}
+.contact .form .button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.contact .form .button .price-button{
+    outline: none;
+    border: none;
+    background: #282938;
+
+    width: 254px;
+    height: 64px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+
+}
+.contact .form .button .price-button a{
+    color: white;
+}
+/* =======================================================
+                    contact us form ends
+========================================================== */
+.privicyy{
+    padding-bottom: 80px !important;
+}
+.privicy{
+    padding: 20px 300px !important;
+}
+.pri{
+    padding-bottom: 0 !important;
+}
+.p-im{
+   padding-top: 10px !important;
+   padding-bottom: 10px !important;
+}
+/* =======================================================
+                    privicy ends
+========================================================== */
+
+
+
